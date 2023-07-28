@@ -1,7 +1,13 @@
+h1 {
+    text-align: center;
+}
+
+
+
 footer {
     bottom: 0;
     position: fixed;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     width: 100%;
 }
