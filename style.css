@@ -8,15 +8,16 @@
 :root {
     --darkest: #22252D;
     --white: white;
-    --coral: #eb6666;
+    --coral: #d55454;
     --acqua: rgb(50, 185, 185);
     --dark: #292D36;
     --darker:#1f2229;
 }
 
 
-h1 {
-    text-align: center;
+body {
+    background-image: url(./images/binary-code-minimalism-abstract-t1.jpg);
+    background-size: cover;
 }
 
 .app {
@@ -29,7 +30,7 @@ h1 {
 .calculator {
     background-color: var(--darkest);
     width: 100%;
-    max-width: 375px;
+    max-width: 400px;
     min-height: 640px;
     display: flex;
     flex-direction: column;
@@ -50,7 +51,7 @@ h1 {
 }
 
 .display .input {
-    font-size: 1.25rem;
+    font-size: 1.7rem;
     margin-bottom: 0.5rem;
 }
 
@@ -74,7 +75,7 @@ h1 {
 .keys {
 	background-color: var(--dark);
 	padding: 1.5rem;
-	border-radius: 1.5rem 1.5rem 0 0;
+	border-radius: 2rem 1.5rem 0 0;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(5, 1fr);
@@ -85,7 +86,6 @@ h1 {
 .keys .key {
 	position: relative;
 	cursor: pointer;
-
 	display: block;
 	height: 0;
 	padding-top: 100%;
@@ -106,7 +106,7 @@ h1 {
 }
 
 .keys .key:hover {
-    box-shadow: inset 0px 0px 8px;
+    box-shadow: inset 0px 0px 8px black;
 }
 
 .keys .key.operator span{
@@ -121,6 +121,6 @@ footer {
     bottom: 0;
     position: fixed;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: whitesmoke;
     width: 100%;
 }
