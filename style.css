@@ -106,7 +106,7 @@ body {
 }
 
 .keys .key:hover {
-    box-shadow: inset 0px 0px 8px black;
+    box-shadow: inset 0px 0px 8px rgb(27, 26, 26);
 }
 
 .keys .key.operator span{
